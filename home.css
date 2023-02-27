@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
 
 
 .section-1 {
-    background-image: url(../Resources/CoffeHeader.png);
+    background-image: url(./Resources/CoffeHeader.png);
     background-size: 100vw 100vh;
     /* filter: rgba(20, 54, 66, 0.7) ; */
     /* background: rgba(20, 54, 66, 0.7); */
