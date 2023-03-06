@@ -22,7 +22,7 @@
       <!-- Container wrapper -->
       <div class="container-fluid">
         <!-- Navbar brand -->
-        <a class="navbar-brand Navbar_Brand" href="./index.html"> <img src="./Resources/Logo White.png" height="20" alt="MDB Logo"
+        <a class="navbar-brand Navbar_Brand" href="./Pages/index.html"> <img src="./Resources/Logo White.png" height="20" alt="MDB Logo"
             loading="lazy" /></a>
 
         <!-- Toggle button -->
@@ -63,7 +63,7 @@
               </a>
             </li>
             <li class="nav-item dropdown text-center mx-2 mx-lg-1 nav-margin">
-              <a class="nav-link " href="../Pages/help.html" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+              <a class="nav-link " href="./Pages/help.html" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
                 aria-expanded="false">
                 <div>
                   <!-- <i class="far fa-envelope fa-lg mb-1"></i> -->
@@ -140,9 +140,9 @@
     <section class="section-description">
       <!-- <div class="text-center section-margin"> -->
       <div class="text-center section-margin">
-        <div class="row description-row">
+        <div data-position="left" data-offset="60" class="row description-row notViewed animBlock">
           <div class="col-md-6 col-sm-12">
-            <img src="./Resources/WhoAreWe.jpg" class="rounded float-left home-img-detail">
+            <img src="../Resources/WhoAreWe.jpg" class="rounded float-left home-img-detail">
           </div>
           <div class="col-md-6 col-sm-12 home-description-1">
             <h3 class="hr home-description-title font-title">Who are we?</h3>
@@ -151,9 +151,9 @@
               quality, coffee beans and<br>tea leaves.</p>
           </div>
         </div>
-        <div class="row description-row">
-          <div class="col-md-6 col-sm-12">
-            <img src="./Resources/OurProducts.jpg" class="rounded float-left home-img-detail hide-dk">
+        <div class="row description-row notViewed animBlock" data-position="right" data-offset="60">
+          <div class="col-md-6 col-sm-12 block">
+            <img src="../Resources/OurProducts.jpg" class="rounded float-left home-img-detail hide-dk">
             <div class="hide-mb">
               <h3 class="hr home-description-title font-title">Product Showcase</h3>
               <!-- <hr> -->
@@ -161,8 +161,8 @@
               <button type="button" class="btn btn-warning btn-sz" style="width: 12rem;white-space: nowrap;">See out coffee and tea</button>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12 home-description-2">
-            <img src="./Resources/OurProducts.jpg" class="rounded float-left home-img-detail hide-mb">
+          <div class="col-md-6 col-sm-12 home-description-2 block">
+            <img src="../Resources/OurProducts.jpg" class="rounded float-left home-img-detail hide-mb">
             <div class="hide-dk">
               <h3 class="hr home-description-title font-title">Product Showcase</h3>
               <!-- <hr> -->
@@ -171,9 +171,9 @@
             </div>
           </div>
         </div>
-        <div class="row description-row">
+        <div class="row description-row notViewed animBlock" data-position="left" data-offset="60">
           <div class="col-md-6 col-sm-12">
-            <img src="./Resources/HangOutWithUs.jpg" class="rounded float-left home-img-detail">
+            <img src="../Resources/HangOutWithUs.jpg" class="rounded float-left home-img-detail">
           </div>
           <div class="col-md-6 col-sm-12 home-description-3">
             <h3 class="hr home-description-title font-title">Hang out with us!</h3>
@@ -288,6 +288,8 @@
     </footer>
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
     </script>
